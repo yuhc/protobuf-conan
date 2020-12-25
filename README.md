@@ -43,3 +43,12 @@ The contents of this GIT repository are completely separate from the software be
 ### License for Bincrafters recipe:
 
     ~/.conan/data/<pkg_name>/<pkg_version>/bincrafters/export/LICENSE.md
+
+### Build and Update
+
+```shell
+conan create . yuhc/stable
+conan remote add yuhc "https://api.bintray.com/conan/yuhc/ava-deps-conan"
+conan user -p <API_KEY> -r yuhc <USER_NAME>
+conan upload protobuf/3.6.1@yuhc/stable
+```
