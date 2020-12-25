@@ -7,7 +7,7 @@ class ConanFileBase(ConanFile):
     version = "3.6.1"
     description = "Protocol Buffers - Google's data interchange format"
     topics = ("conan", "protobuf", "protocol-buffers", "protocol-compiler", "serialization", "rpc", "protocol-compiler")
-    url = "https://github.com/bincrafters/conan-protobuf"
+    url = "https://github.com/yuhc/protobuf-conan"
     homepage = "https://github.com/protocolbuffers/protobuf"
     author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSD-3-Clause"
